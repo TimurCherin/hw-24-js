@@ -1,8 +1,9 @@
                                                         // ex 1
+const input = document.querySelector("input")
 const button = document.querySelector(".btn")
-button.textContent = 1221
-const text = document.querySelector(".text")
-text.textContent = 321
+input.addEventListener("change", event => {
+    button.textContent = input.value
+})
                                                         // ex 2
 const title = document.querySelector(".title")
 title.textContent = 111
